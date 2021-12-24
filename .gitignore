@@ -1,4 +1,9 @@
-*.terraform.lock.hcl
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
 *.tfstate
-*.tfstate.backup
-*.idea/
+*.tfstate.*
+
+# IntelliJ
+.idea/**
